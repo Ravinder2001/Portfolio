@@ -1,16 +1,74 @@
-# React + Vite
+# 🌟 Premium React Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-end, professional portfolio template built with **React (Vite)**, **Tailwind CSS**, and **Framer Motion**. Designed for developers who want a "Trendy & Premium" digital presence with smooth animations, glassmorphism, and mesh gradients.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **🚀 Modern Tech Stack**: React (Vite 7+), Tailwind CSS 3, Framer Motion.
+- **💎 Premium Design**: Mesh gradients, glassmorphism, and high-end aesthetics.
+- **📱 Fully Responsive**: Optimized for Mobile, Tablet, and Desktop.
+- **🎭 Animations**: Smooth scroll, staggered entrance, floating images, and interactive hover effects.
+- **📅 Dynamic Experience**: Years of experience calculated automatically from your start date.
+- **🛠️ Modular Built**: Organized component-based structure for easy maintenance.
+- **📄 Vertical Branching Timeline**: Professional multi-role experience layout.
 
-## React Compiler
+## 🚀 Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Prerequisites
 
-## Expanding the ESLint configuration
+- [Node.js](https://nodejs.org/) (v20.19.0 or higher recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Ravinder2001/Portfolio.git
+   cd Portfolio
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production**
+   ```bash
+   npm run build
+   ```
+
+## 📂 Project Structure
+
+```text
+src/
+├── components/       # Modular UI components
+│   ├── About.jsx
+│   ├── Awards.jsx
+│   ├── Experience.jsx
+│   ├── Footer.jsx
+│   ├── Hero.jsx
+│   ├── Navbar.jsx
+│   ├── Projects.jsx
+│   ├── Skills.jsx
+│   └── Typewriter.jsx
+├── Data.js           # Central configuration for all content
+├── App.jsx           # Main application entry
+├── index.css         # Global styles & Tailwind layers
+└── main.jsx          # React DOM mounting
+```
+
+## 🛠️ Customization
+
+Most of the content (Name, Bio, Projects, Experience, Skills) is managed through **`src/Data.js`**. Simply update the objects in that file to reflect your own information.
+
+## 📜 License
+
+This project is **FREE TO USE** by anyone. You are welcome to clone, modify, and use it for your own personal or professional portfolio.
+
+---
+Built with ❤️ by [Ravinder Singh Negi](https://github.com/Ravinder2001)
