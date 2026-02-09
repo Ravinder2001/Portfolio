@@ -39,14 +39,14 @@ export const portfolioData = {
       thumbnail: "https://res.cloudinary.com/dvxa7eljz/image/upload/v1747387279/iwuaqjqnuu4pvidrxgdu.png",
       techstack: ["JavaScript"],
       liveLink: "https://www.npmjs.com/package/create-pro-app",
-      githubLink: "#"
+      githubLink: "https://github.com/Ravinder2001/create-pro-app"
     },
     {
       title: "Hisabkar",
       thumbnail: "https://res.cloudinary.com/dvxa7eljz/image/upload/v1744349873/tpspkwd6f6tdxizfkatp.png",
       techstack: ["React", "Node.js", "PostgreSQL", "TypeScript", "Redux", "Tailwind CSS"],
-      liveLink: "#",
-      githubLink: "#"
+      liveLink: "https:hisabkar.vercel.app",
+      githubLink: "https://github.com/Ravinder2001/hisabkar"
     }
   ],
   skills: [
