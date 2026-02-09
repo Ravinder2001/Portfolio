@@ -4,7 +4,7 @@ export const portfolioData = {
     role: "Full Stack Web Developer",
     typewriterText: ["Frontend Specialist", "Full Stack Explorer", "Mountain Trekker", "Life-long Learner"],
     image: "https://res.cloudinary.com/dvxa7eljz/image/upload/v1770637440/profile-pic_1_fe9ej2.png", // Keeping the high-end placeholder
-    resumeLink: "https://drive.google.com/file/d/1cHDsL6zhKT8ciMcb2f0UD5LdS7g0aW8a/view?usp=sharing"
+    resumeLink: "https://drive.google.com/file/d/1DuZXLwdqxg5xh4VlgCql9I8wgwO5k6z2/view?usp=sharing"
   },
   about: {
     image: "https://res.cloudinary.com/dvxa7eljz/image/upload/v1770637042/IMG_0812_vn5rwj.jpg", // Keeping the high-end placeholder
