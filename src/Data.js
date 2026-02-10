@@ -35,20 +35,6 @@ export const portfolioData = {
   ],
   projects: [
     {
-      title: "create-pro-app",
-      thumbnail: "https://res.cloudinary.com/dvxa7eljz/image/upload/v1747387279/iwuaqjqnuu4pvidrxgdu.png",
-      techstack: ["JavaScript"],
-      liveLink: "https://www.npmjs.com/package/create-pro-app",
-      githubLink: "https://github.com/Ravinder2001/create-pro-app"
-    },
-    {
-      title: "Hisabkar",
-      thumbnail: "https://res.cloudinary.com/dvxa7eljz/image/upload/v1744349873/tpspkwd6f6tdxizfkatp.png",
-      techstack: ["React", "Node.js", "PostgreSQL", "TypeScript", "Redux", "Tailwind CSS"],
-      liveLink: "https:hisabkar.vercel.app",
-      githubLink: "https://github.com/Ravinder2001/hisabkar"
-    },
-    {
       title: "Incident Responder",
       thumbnail: "https://res.cloudinary.com/dvxa7eljz/image/upload/v1770733966/Screenshot_2026-02-10_195039_geutrz.png",
       techstack: ["Node.js", "n8n"],
@@ -59,7 +45,21 @@ export const portfolioData = {
       thumbnail: "https://res.cloudinary.com/dvxa7eljz/image/upload/v1770734064/Screenshot_2026-02-10_195421_cvue5j.png",
       techstack: ["React", "n8n"],
       githubLink: "https://github.com/Ravinder2001/AI-Meeting-Validator"
-    }
+    },
+    {
+      title: "Hisabkar",
+      thumbnail: "https://res.cloudinary.com/dvxa7eljz/image/upload/v1744349873/tpspkwd6f6tdxizfkatp.png",
+      techstack: ["React", "Node.js", "PostgreSQL", "TypeScript", "Redux", "Tailwind CSS"],
+      liveLink: "https:hisabkar.vercel.app",
+      githubLink: "https://github.com/Ravinder2001/hisabkar"
+    },
+    {
+      title: "create-pro-app",
+      thumbnail: "https://res.cloudinary.com/dvxa7eljz/image/upload/v1747387279/iwuaqjqnuu4pvidrxgdu.png",
+      techstack: ["JavaScript"],
+      liveLink: "https://www.npmjs.com/package/create-pro-app",
+      githubLink: "https://github.com/Ravinder2001/create-pro-app"
+    },
   ],
   skills: [
     { name: "React", icon: "https://img.icons8.com/external-tal-revivo-color-tal-revivo/480/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png" },
