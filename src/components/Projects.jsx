@@ -49,9 +49,11 @@ const Projects = () => {
               </div>
               <h3 className="text-xl md:text-2xl font-bold text-white mb-6 uppercase tracking-wider text-center">{project.title}</h3>
               <div className="flex gap-4">
-                <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="bg-white text-black px-6 py-2 rounded-full font-bold text-xs md:text-sm flex items-center gap-2 hover:bg-blue-400 hover:text-white transition-all">
-                  <ExternalLink size={16} /> Live Demo
-                </a>
+                {project.liveLink && (
+                  <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="bg-white text-black px-6 py-2 rounded-full font-bold text-xs md:text-sm flex items-center gap-2 hover:bg-blue-400 hover:text-white transition-all">
+                    <ExternalLink size={16} /> Live Demo
+                  </a>
+                )}
                 <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="glass px-6 py-2 rounded-full font-bold text-xs md:text-sm flex items-center gap-2 hover:bg-white/20 transition-all">
                   <Github size={16} /> Source
                 </a>
