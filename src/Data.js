@@ -47,6 +47,18 @@ export const portfolioData = {
       techstack: ["React", "Node.js", "PostgreSQL", "TypeScript", "Redux", "Tailwind CSS"],
       liveLink: "https:hisabkar.vercel.app",
       githubLink: "https://github.com/Ravinder2001/hisabkar"
+    },
+    {
+      title: "Incident Responder",
+      thumbnail: "https://res.cloudinary.com/dvxa7eljz/image/upload/v1770733966/Screenshot_2026-02-10_195039_geutrz.png",
+      techstack: ["Node.js", "Express", "n8n", "Google Gemini", "Pinecone"],
+      githubLink: "https://github.com/Ravinder2001/Incident-Responder-System"
+    },
+    {
+      title: "AI Meeting Validator",
+      thumbnail: "https://res.cloudinary.com/dvxa7eljz/image/upload/v1770734064/Screenshot_2026-02-10_195421_cvue5j.png",
+      techstack: ["n8n", "Google Gemini", "LangChain"],
+      githubLink: "https://github.com/Ravinder2001/AI-Meeting-Validator"
     }
   ],
   skills: [
