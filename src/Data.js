@@ -51,13 +51,13 @@ export const portfolioData = {
     {
       title: "Incident Responder",
       thumbnail: "https://res.cloudinary.com/dvxa7eljz/image/upload/v1770733966/Screenshot_2026-02-10_195039_geutrz.png",
-      techstack: ["Node.js", "Express", "n8n", "Google Gemini", "Pinecone"],
+      techstack: ["Node.js", "n8n"],
       githubLink: "https://github.com/Ravinder2001/Incident-Responder-System"
     },
     {
       title: "AI Meeting Validator",
       thumbnail: "https://res.cloudinary.com/dvxa7eljz/image/upload/v1770734064/Screenshot_2026-02-10_195421_cvue5j.png",
-      techstack: ["n8n", "Google Gemini", "LangChain"],
+      techstack: ["React", "n8n"],
       githubLink: "https://github.com/Ravinder2001/AI-Meeting-Validator"
     }
   ],
@@ -75,7 +75,9 @@ export const portfolioData = {
     // { name: "Socket.io", icon: "https://img.icons8.com/color/480/socket-io.png" },
     { name: "AWS", icon: "https://img.icons8.com/color/480/amazon-web-services.png" },
     { name: "Tailwind CSS", icon: "https://img.icons8.com/color/480/tailwind_css.png" },
-    { name: "Git", icon: "https://img.icons8.com/color/480/git.png" }
+    { name: "Git", icon: "https://img.icons8.com/color/480/git.png" },
+    { name: "n8n", icon: "https://static.cdnlogo.com/logos/n/75/n8n.svg" },
+    { name: "Google Gemini", icon: "https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/google-gemini/icon.svg" }
   ],
   awards: [
     {
