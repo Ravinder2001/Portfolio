@@ -12,7 +12,7 @@ const Projects = () => {
             <Code2 size={20} />
             <span className="uppercase tracking-widest text-sm font-bold">Portfolio</span>
           </div>
-          <h2 className="text-3xl md:text-5xl font-bold">Featured Projects</h2>
+          <h2 className="text-3xl md:text-5xl font-bold">Personal Projects</h2>
         </div>
         <button className="text-blue-400 font-bold flex items-center gap-2 hover:gap-4 transition-all pb-2 border-b-2 border-blue-400/20">
           View All Projects <ChevronRight size={20} />
