@@ -35,16 +35,17 @@ export const portfolioData = {
   ],
   projects: [
     {
+      title: "AI Meeting Validator",
+      thumbnail: "https://res.cloudinary.com/dvxa7eljz/image/upload/v1770734064/Screenshot_2026-02-10_195421_cvue5j.png",
+      techstack: ["React", "n8n"],
+      liveLink: "https://ai-meeting-validator.vercel.app",
+      githubLink: "https://github.com/Ravinder2001/AI-Meeting-Validator"
+    },
+    {
       title: "Incident Responder",
       thumbnail: "https://res.cloudinary.com/dvxa7eljz/image/upload/v1770733966/Screenshot_2026-02-10_195039_geutrz.png",
       techstack: ["Node.js", "n8n"],
       githubLink: "https://github.com/Ravinder2001/Incident-Responder-System"
-    },
-    {
-      title: "AI Meeting Validator",
-      thumbnail: "https://res.cloudinary.com/dvxa7eljz/image/upload/v1770734064/Screenshot_2026-02-10_195421_cvue5j.png",
-      techstack: ["React", "n8n"],
-      githubLink: "https://github.com/Ravinder2001/AI-Meeting-Validator"
     },
     {
       title: "Hisabkar",
