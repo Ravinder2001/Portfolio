@@ -35,31 +35,55 @@ export const portfolioData = {
   ],
   projects: [
     {
-      title: "AI Meeting Validator",
+      title: "AI Meeting Auditor & Autopilot",
       thumbnail: "https://res.cloudinary.com/dvxa7eljz/image/upload/v1770734064/Screenshot_2026-02-10_195421_cvue5j.png",
-      techstack: ["React", "n8n"],
+      techstack: ["React", "n8n", "Google Gemini"],
       liveLink: "https://ai-meeting-validator.vercel.app",
-      githubLink: "https://github.com/Ravinder2001/AI-Meeting-Validator"
+      githubLink: "https://github.com/Ravinder2001/AI-Meeting-Validator",
+      summary: "Automated meeting auditing system. Features auto-joining, deep AI analysis with Gemini, and detailed compliance reports.",
+      features: [
+        "Automated Meeting Pilot: Fetches meetings and joins calls automatically.",
+        "Granular AI Analysis: Generates detailed MoM, checks agenda compliance, and analyzes sentiment.",
+        "Beautiful HTML Reports: Delivers structured email reports with risk scores and insights."
+      ]
     },
     {
-      title: "Incident Responder",
+      title: "Incident Responder System",
       thumbnail: "https://res.cloudinary.com/dvxa7eljz/image/upload/v1770733966/Screenshot_2026-02-10_195039_geutrz.png",
-      techstack: ["Node.js", "n8n"],
-      githubLink: "https://github.com/Ravinder2001/Incident-Responder-System"
+      techstack: ["Node.js", "n8n", "Google Gemini"],
+      githubLink: "https://github.com/Ravinder2001/Incident-Responder-System",
+      summary: "Automated incident response system using RAG & Gemini. Detects crashes, analyzes errors, and alerts owners instantly.",
+      features: [
+        "Real-time Crash Detection: Captures errors and code context instantly.",
+        "RAG & AI Analysis: Uses Vector DB and Gemini to diagnose root causes.",
+        "Automated Workflows: Triggers n8n pipelines for alerts and reporting."
+      ]
     },
     {
-      title: "Hisabkar",
+      title: "Hisabkar - Expense Splitting PWA",
       thumbnail: "https://res.cloudinary.com/dvxa7eljz/image/upload/v1744349873/tpspkwd6f6tdxizfkatp.png",
-      techstack: ["React", "Node.js", "PostgreSQL", "TypeScript", "Redux", "Tailwind CSS"],
-      liveLink: "https:hisabkar.vercel.app",
-      githubLink: "https://github.com/Ravinder2001/hisabkar"
+      techstack: ["React", "TypeScript", "Node.js", "PostgreSQL", "Redux"],
+      liveLink: "https://hisabkar.vercel.app",
+      githubLink: "https://github.com/Ravinder2001/hisabkar",
+      summary: "Modern PWA for seamless group expense splitting. Features smart settlements, offline support, and flexible split options.",
+      features: [
+        "Smart Expense Splitting: Equal, percentage, or custom splits.",
+        "PWA & Offline Support: Installable app with full offline capabilities.",
+        "Automated Settlements: Optimized algorithms to minimize transactions."
+      ]
     },
     {
-      title: "create-pro-app",
+      title: "Create Pro App - CLI Tool",
       thumbnail: "https://res.cloudinary.com/dvxa7eljz/image/upload/v1747387279/iwuaqjqnuu4pvidrxgdu.png",
       techstack: ["JavaScript"],
       liveLink: "https://www.npmjs.com/package/create-pro-app",
-      githubLink: "https://github.com/Ravinder2001/create-pro-app"
+      githubLink: "https://github.com/Ravinder2001/create-pro-app",
+      summary: "Modern CLI tool to scaffold production-ready React apps. Built with Vite, offering TypeScript, Redux, and Tailwind support.",
+      features: [
+        "Rapid Scaffolding: Create tailored React apps with Vite in seconds.",
+        "Full Customization: Support for TypeScript, Redux, Tailwind, and Authentication.",
+        "Developer Excellence: Pre-configured with Husky, ESLint, and Prettier."
+      ]
     },
   ],
   skills: [
