@@ -60,18 +60,21 @@ export const portfolioData = {
       ]
     },
     {
-      title: "Hisabkar - Expense Splitting PWA",
-      thumbnail: "https://res.cloudinary.com/dvxa7eljz/image/upload/v1744349873/tpspkwd6f6tdxizfkatp.png",
-      techstack: ["React", "TypeScript", "Node.js", "PostgreSQL", "Redux"],
-      liveLink: "https://hisabkar.vercel.app",
-      githubLink: "https://github.com/Ravinder2001/hisabkar",
-      summary: "Modern PWA for seamless group expense splitting. Features smart settlements, offline support, and flexible split options.",
-      features: [
-        "Smart Expense Splitting: Equal, percentage, or custom splits.",
-        "PWA & Offline Support: Installable app with full offline capabilities.",
-        "Automated Settlements: Optimized algorithms to minimize transactions."
-      ]
-    },
+  title: "Hisabkar - AI-Powered Expense Ecosystem",
+  thumbnail: "https://res.cloudinary.com/dvxa7eljz/image/upload/v1744349873/tpspkwd6f6tdxizfkatp.png",
+  techstack: ["React", "TypeScript", "Node.js", "PostgreSQL", "Redux", "Socket.io", "Gemini AI"],
+  liveLink: "https://hisabkar.vercel.app",
+  githubLink: "https://github.com/Ravinder2001/hisabkar",
+  summary: "A high-performance PWA for intelligent group expense management. It combines core split logic with real-time chat, budget tracking, and a Gemini-powered AI assistant for proactive financial analysis.",
+  features: [
+    "AI Financial Sensei: Integrated Gemini 1.5 Flash to analyze spending patterns, predict monthly totals, and provide proactive budgeting advice.",
+    "Integrated Group Chat: Real-time messaging system allowing members to share and discuss specific expenses for instant clarification.",
+    "Smart Multi-mode Splitting: Support for Equal, Percentage, and Custom split logic with optimized algorithms to minimize group transactions.",
+    "Dynamic Budget Tracking: Real-time budget monitoring with visual health indicators and category-wise spending breakdowns.",
+    "Premium PWA Experience: Fast, installable mobile-first interface featuring offline support, push notifications, and rich Framer Motion animations."
+  ]
+}
+,
     {
       title: "Create Pro App - CLI Tool",
       thumbnail: "https://res.cloudinary.com/dvxa7eljz/image/upload/v1747387279/iwuaqjqnuu4pvidrxgdu.png",
