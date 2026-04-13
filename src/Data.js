@@ -56,14 +56,14 @@ export const portfolioData = {
         "PostgreSQL",
         "Redux",
         "Socket.io",
-        "Gemini",
+        "OpenRouter",
       ],
       liveLink: "https://hisabkar.vercel.app",
       githubLink: "https://github.com/Ravinder2001/hisabkar",
       summary:
-        "A high-performance PWA for intelligent group expense management. It combines core split logic with real-time chat, budget tracking, and a Gemini-powered AI assistant for proactive financial analysis.",
+        "A high-performance PWA for intelligent group expense management. It combines core split logic with real-time chat, budget tracking, and an AI-powered Financial Sensei (via OpenRouter) for proactive financial analysis.",
       features: [
-        "AI Financial Sensei: Integrated Gemini 1.5 Flash to analyze spending patterns, predict monthly totals, and provide proactive budgeting advice.",
+        "AI Financial Sensei: Integrated OpenRouter API to analyze spending patterns using multiple LLMs, predict monthly totals, and provide proactive budgeting advice.",
         "Integrated Group Chat: Real-time messaging system allowing members to share and discuss specific expenses for instant clarification.",
         "Smart Multi-mode Splitting: Support for Equal, Percentage, and Custom split logic with optimized algorithms to minimize group transactions.",
         "Dynamic Budget Tracking: Real-time budget monitoring with visual health indicators and category-wise spending breakdowns.",
@@ -74,11 +74,11 @@ export const portfolioData = {
       title: "AI Meeting Auditor & Autopilot",
       thumbnail:
         "https://res.cloudinary.com/dvxa7eljz/image/upload/v1770734064/Screenshot_2026-02-10_195421_cvue5j.png",
-      techstack: ["React", "n8n", "Gemini"],
+      techstack: ["React", "n8n", "OpenRouter"],
       liveLink: "https://ai-meeting-validator.vercel.app",
       githubLink: "https://github.com/Ravinder2001/AI-Meeting-Validator",
       summary:
-        "Automated meeting auditing system. Features auto-joining, deep AI analysis with Gemini, and detailed compliance reports.",
+        "Automated meeting auditing system. Features auto-joining, deep AI analysis with OpenRouter, and detailed compliance reports.",
       features: [
         "Automated Meeting Pilot: Fetches meetings and joins calls automatically.",
         "Granular AI Analysis: Generates detailed MoM, checks agenda compliance, and analyzes sentiment.",
@@ -89,13 +89,13 @@ export const portfolioData = {
       title: "Incident Responder System",
       thumbnail:
         "https://res.cloudinary.com/dvxa7eljz/image/upload/v1770733966/Screenshot_2026-02-10_195039_geutrz.png",
-      techstack: ["Node.js", "n8n", "Gemini"],
+      techstack: ["Node.js", "n8n", "OpenRouter"],
       githubLink: "https://github.com/Ravinder2001/Incident-Responder-System",
       summary:
-        "Automated incident response system using RAG & Gemini. Detects crashes, analyzes errors, and alerts owners instantly.",
+        "Automated incident response system using RAG & OpenRouter. Detects crashes, analyzes errors, and alerts owners instantly.",
       features: [
         "Real-time Crash Detection: Captures errors and code context instantly.",
-        "RAG & AI Analysis: Uses Vector DB and Gemini to diagnose root causes.",
+        "RAG & AI Analysis: Uses Vector DB and OpenRouter to diagnose root causes.",
         "Automated Workflows: Triggers n8n pipelines for alerts and reporting.",
       ],
     },
@@ -160,8 +160,8 @@ export const portfolioData = {
     { name: "Git", icon: "https://img.icons8.com/color/480/git.png" },
     { name: "n8n", icon: "https://static.cdnlogo.com/logos/n/75/n8n.svg" },
     {
-      name: "Gemini",
-      icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Google_Gemini_icon_2025.svg/1280px-Google_Gemini_icon_2025.svg.png?_=20250728014952",
+      name: "OpenRouter",
+      icon: "https://openrouter.ai/favicon.ico",
     },
   ],
   awards: [
