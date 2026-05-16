@@ -54,6 +54,7 @@ export const portfolioData = {
         "TypeScript",
         "Node.js",
         "PostgreSQL",
+        "Redis",
         "Redux",
         "Socket.io",
         "OpenRouter",
@@ -67,6 +68,7 @@ export const portfolioData = {
         "Integrated Group Chat: Real-time messaging system allowing members to share and discuss specific expenses for instant clarification.",
         "Smart Multi-mode Splitting: Support for Equal, Percentage, and Custom split logic with optimized algorithms to minimize group transactions.",
         "Dynamic Budget Tracking: Real-time budget monitoring with visual health indicators and category-wise spending breakdowns.",
+        "High-Performance Caching: Integrated Redis to cache group and expense lists, significantly improving application responsiveness and reducing database load.",
         "Premium PWA Experience: Fast, installable mobile-first interface featuring offline support, push notifications, and rich Framer Motion animations.",
       ],
     },
@@ -163,6 +165,7 @@ export const portfolioData = {
       name: "OpenRouter",
       icon: "https://openrouter.ai/favicon.ico",
     },
+    { name: "Redis", icon: "https://img.icons8.com/color/480/redis.png" },
   ],
   awards: [
     {
