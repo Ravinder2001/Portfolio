@@ -22,9 +22,11 @@ const Skills = () => {
               whileHover={{ y: -10 }}
               className="glass p-6 rounded-2xl flex flex-col items-center gap-4 group cursor-default"
             >
-              <div className="w-12 h-12 md:w-16 md:h-16 relative">
+              <div className="w-12 h-12 md:w-16 md:h-16 relative flex items-center justify-center">
                 <div className="absolute inset-0 bg-blue-500/10 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                <img src={skill.icon} alt={skill.name} className="w-full h-full object-contain filter group-hover:drop-shadow-[0_0_10px_rgba(59,130,246,0.5)] transition-all" />
+                <div className={`w-full h-full flex items-center justify-center ${skill.name === 'Next.js' ? 'bg-white rounded-full p-1.5 shadow-md' : ''}`}>
+                  <img src={skill.icon} alt={skill.name} className="w-full h-full object-contain filter group-hover:drop-shadow-[0_0_10px_rgba(59,130,246,0.5)] transition-all" />
+                </div>
               </div>
               <span className="text-xs md:text-sm font-bold text-gray-400 group-hover:text-white transition-colors">{skill.name}</span>
             </motion.div>

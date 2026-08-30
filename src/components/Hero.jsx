@@ -23,18 +23,18 @@ const Hero = () => {
         <p className="text-gray-400 text-base md:text-xl mb-10 max-w-2xl mx-auto">
           Crafting premium digital experiences through innovative code and modern design principles.
         </p>
-        <div className="flex flex-wrap justify-center gap-4">
+        <div className="flex flex-wrap justify-center gap-3 sm:gap-4">
           <a 
             href={portfolioData.hero.resumeLink} 
             target="_blank" 
             rel="noopener noreferrer"
-            className="flex items-center gap-2 bg-white text-black px-6 py-3 md:px-8 md:py-3.5 rounded-full font-bold hover:bg-gray-200 transition-all text-sm md:text-base"
+            className="flex items-center gap-2 bg-white text-black px-5 py-3 sm:px-6 md:px-8 md:py-3.5 rounded-full font-bold hover:bg-gray-200 transition-all text-xs sm:text-sm md:text-base whitespace-nowrap"
           >
-            <Download size={20} /> Download Resume
+            <Download size={18} className="shrink-0" /> Download Resume
           </a>
           <a 
             href="#projects"
-            className="flex items-center gap-2 glass px-6 py-3 md:px-8 md:py-3.5 rounded-full font-bold hover:bg-white/10 transition-all text-sm md:text-base"
+            className="flex items-center gap-2 glass px-5 py-3 sm:px-6 md:px-8 md:py-3.5 rounded-full font-bold hover:bg-white/10 transition-all text-xs sm:text-sm md:text-base whitespace-nowrap"
           >
             View Work
           </a>

@@ -19,7 +19,7 @@ export const portfolioData = {
       "https://res.cloudinary.com/dvxa7eljz/image/upload/v1770637042/IMG_0812_vn5rwj.jpg", // Keeping the high-end placeholder
     bio: "From a young age, I've been fascinated by the world of technology. I've always been eager to learn more about new developments and how they can be applied to solve real-world problems. As technology continues to evolve at a rapid pace, it's an exciting time to be a part of this field. I'm currently focused on developing my technical expertise and building a strong foundation in software development. In my free time, I trek mountains and high peaks of Uttarakhand with my friends on my bike. I'm always eager to learn about new technologies and explore the latest trends in the field.",
     metrics: [
-      { label: "Years Experience", value: "4+" },
+      { label: "Total Experience", value: "Since 7 Mar 2022" },
       { label: "Projects Completed", value: "15+" },
       { label: "Companies Worked", value: "1" },
     ],
@@ -44,11 +44,61 @@ export const portfolioData = {
       ],
     },
   ],
+  professionalProjects: [
+    {
+      id: "smart-connect",
+      name: "Smart Connect",
+      client: "Capsule & Machinery Client",
+      confidentialNote: "Client name & UI confidential per NDA",
+      tagline: "Industrial IoT Dashboards, OEE Tracking & AI Search",
+      summary:
+        "Engineered an enterprise Industrial IoT platform for manufacturing lines. Built live telemetry dashboards for CNC machines and capsule production lines, along with an AI assistant to query machine logs in natural language.",
+      points: [
+        "PAM (Plant Asset Management): Equipment lifecycle tracking and predictive maintenance alerts.",
+        "CNC & OEE Analytics: Real-time Overall Equipment Effectiveness (Availability, Performance, Quality) tracking.",
+        "FNF & PMO Modules: Fill & Finish line monitoring, batch reject analysis, and project milestone tracking.",
+        "AI Conversational Search: Natural language LLM assistant for engineers to query machine logs and production reports.",
+      ],
+      techstack: ["React.js", "Node.js", "PostgreSQL", "AI / LLMs", "Redis", "REST APIs", "Tailwind CSS"],
+    },
+    {
+      id: "ezengage",
+      name: "ezEngage",
+      client: "Healthcare & Logistics Client",
+      confidentialNote: "Client name & UI confidential per NDA",
+      tagline: "Omnichannel CRM, Meeting Tracker & Field Coaching",
+      summary:
+        "Developed a healthcare CRM and field engagement platform to record doctor interactions, run structured manager coaching workflows, and deliver executive dashboard analytics.",
+      points: [
+        "Interaction & Meeting Logs: Comprehensive record feed of virtual and in-person doctor meetings, discussion notes, and feedback.",
+        "Coaching Module: Structured coaching framework with evaluation rubrics and field rep scorecards.",
+        "Executive Dashboard Reports: Real-time analytics for territory coverage, meeting frequency, and KPI reports.",
+        "High-Volume APIs: Scalable backend with optimized PostgreSQL queries, reducing data fetching latency by 35%.",
+      ],
+      techstack: ["Next.js", "React.js", "TypeScript", "Node.js", "PostgreSQL", "Redux Toolkit", "REST APIs"],
+    },
+    {
+      id: "smart-lead-capture",
+      name: "Smart Lead Capture",
+      client: "Global Pharma Client",
+      confidentialNote: "Client name & UI confidential per NDA",
+      tagline: "Exhibition Lead Capture & Azure OCR Scanner",
+      summary:
+        "Built an exhibition and event management platform with integrated Azure OCR computer vision to automate attendee badge and business card scanning at global trade events.",
+      points: [
+        "Azure OCR Scanner: Automated badge and business card data extraction, reducing manual entry effort by 60%.",
+        "Booth & Queue Management: Floor operations management, rep session allocation, and visitor tracking.",
+        "Instant CRM Sync: Real-time lead ingestion with automatic tagging and CRM pipeline integration.",
+        "Offline-First Mode: Robust local caching ensuring zero data loss during busy exhibitions with poor Wi-Fi.",
+      ],
+      techstack: ["React.js", "Node.js", "Azure OCR", "PostgreSQL", "REST APIs", "Tailwind CSS"],
+    },
+  ],
   projects: [
     {
       title: "Hisabkar - AI-Powered Expense Ecosystem",
       thumbnail:
-        "https://res.cloudinary.com/dvxa7eljz/image/upload/v1744349873/tpspkwd6f6tdxizfkatp.png",
+        "https://res.cloudinary.com/dvxa7eljz/image/upload/v1787656269/IMG_5518-imageonline.co-merged_spd5ou.png",
       techstack: [
         "React",
         "TypeScript",
@@ -71,52 +121,59 @@ export const portfolioData = {
         "High-Performance Caching: Integrated Redis to cache group and expense lists, significantly improving application responsiveness and reducing database load.",
         "Premium PWA Experience: Fast, installable mobile-first interface featuring offline support, push notifications, and rich Framer Motion animations.",
       ],
-    },
-    {
-      title: "AI Meeting Auditor & Autopilot",
-      thumbnail:
-        "https://res.cloudinary.com/dvxa7eljz/image/upload/v1770734064/Screenshot_2026-02-10_195421_cvue5j.png",
-      techstack: ["React", "n8n", "OpenRouter"],
-      liveLink: "https://ai-meeting-validator.vercel.app",
-      githubLink: "https://github.com/Ravinder2001/AI-Meeting-Validator",
-      summary:
-        "Automated meeting auditing system. Features auto-joining, deep AI analysis with OpenRouter, and detailed compliance reports.",
-      features: [
-        "Automated Meeting Pilot: Fetches meetings and joins calls automatically.",
-        "Granular AI Analysis: Generates detailed MoM, checks agenda compliance, and analyzes sentiment.",
-        "Beautiful HTML Reports: Delivers structured email reports with risk scores and insights.",
+      screens: [
+        {
+          step: "01",
+          tag: "Auth & Security",
+          title: "Welcome & One-Tap Authentication",
+          description:
+            "Clean Google OAuth onboarding granting instant, encrypted access to group ledgers and personal finance records without login friction.",
+          image:
+            "https://res.cloudinary.com/dvxa7eljz/image/upload/v1787833172/IMG_5519_xkydi1.jpg",
+          highlights: ["Google OAuth 2.0 Login", "Encrypted User Sessions", "Fast PWA Launch"],
+        },
+        {
+          step: "02",
+          tag: "Dashboard & Balances",
+          title: "Groups Hub & Real-time Balance Overview",
+          description:
+            "High-level overview displaying aggregate 'You Owe' and 'You're Owed' balances across all active groups with live settlement tags.",
+          image:
+            "https://res.cloudinary.com/dvxa7eljz/image/upload/v1787833172/IMG_5516_smlsrw.jpg",
+          highlights: ["Net Debt Calculation", "Group-level Status Badges", "Multi-Group Management"],
+        },
+        {
+          step: "03",
+          tag: "Expense Engine",
+          title: "Dynamic Expense Timeline & Multi-Splits",
+          description:
+            "Interactive transaction feed supporting granular expense categorization (WiFi, Dining, Groceries) and custom split rules with instant breakdown visibility.",
+          image:
+            "https://res.cloudinary.com/dvxa7eljz/image/upload/v1787833172/IMG_5515_capsap.jpg",
+          highlights: ["Equal & Custom Splitting", "Categorized Activity Logs", "Member-wise Breakdown"],
+        },
+        {
+          step: "04",
+          tag: "Settlement Engine",
+          title: "Smart Debt Simplification & Settle-Up",
+          description:
+            "Graph-based debt minimization algorithm that condenses complex multi-member obligations into the minimum possible transactions.",
+          image:
+            "https://res.cloudinary.com/dvxa7eljz/image/upload/v1787833172/IMG_5517_eyhf8r.jpg",
+          highlights: ["Graph Optimization Algorithm", "Simplified vs Detailed Mode", "Visual Transaction Flow"],
+        },
+        {
+          step: "05",
+          tag: "AI Intelligence",
+          title: "AI Financial Sensei (Assistant)",
+          description:
+            "Integrated AI assistant powered by OpenRouter LLMs that analyzes group spending habits, predicts future budgets, and answers conversational financial queries.",
+          image:
+            "https://res.cloudinary.com/dvxa7eljz/image/upload/v1787833172/IMG_5518_ftrem8.jpg",
+          highlights: ["OpenRouter LLM Integration", "Predictive Spending Analytics", "Context-Aware Spending Advice"],
+        },
       ],
-    },
-    {
-      title: "Incident Responder System",
-      thumbnail:
-        "https://res.cloudinary.com/dvxa7eljz/image/upload/v1770733966/Screenshot_2026-02-10_195039_geutrz.png",
-      techstack: ["Node.js", "n8n", "OpenRouter"],
-      githubLink: "https://github.com/Ravinder2001/Incident-Responder-System",
-      summary:
-        "Automated incident response system using RAG & OpenRouter. Detects crashes, analyzes errors, and alerts owners instantly.",
-      features: [
-        "Real-time Crash Detection: Captures errors and code context instantly.",
-        "RAG & AI Analysis: Uses Vector DB and OpenRouter to diagnose root causes.",
-        "Automated Workflows: Triggers n8n pipelines for alerts and reporting.",
-      ],
-    },
-
-    {
-      title: "Create Pro App - CLI Tool",
-      thumbnail:
-        "https://res.cloudinary.com/dvxa7eljz/image/upload/v1747387279/iwuaqjqnuu4pvidrxgdu.png",
-      techstack: ["JavaScript"],
-      liveLink: "https://www.npmjs.com/package/create-pro-app",
-      githubLink: "https://github.com/Ravinder2001/create-pro-app",
-      summary:
-        "Modern CLI tool to scaffold production-ready React apps. Built with Vite, offering TypeScript, Redux, and Tailwind support.",
-      features: [
-        "Rapid Scaffolding: Create tailored React apps with Vite in seconds.",
-        "Full Customization: Support for TypeScript, Redux, Tailwind, and Authentication.",
-        "Developer Excellence: Pre-configured with Husky, ESLint, and Prettier.",
-      ],
-    },
+    }
   ],
   skills: [
     {

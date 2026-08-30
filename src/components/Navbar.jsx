@@ -7,10 +7,17 @@ const Navbar = () => {
       <div className="text-xl md:text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
         {portfolioData.hero.name.split(' ')[0]}<span className="text-white">.</span>
       </div>
-      <div className="hidden md:flex gap-8 text-sm font-medium">
-        {['About', 'Experience', 'Projects', 'Skills', 'Awards'].map((item) => (
-          <a key={item} href={`#${item.toLowerCase()}`} className="hover:text-blue-400 transition-colors">
-            {item}
+      <div className="hidden md:flex gap-7 text-sm font-medium">
+        {[
+          { label: 'About', href: '#about' },
+          { label: 'Experience', href: '#experience' },
+          { label: 'Work', href: '#professional-projects' },
+          { label: 'Projects', href: '#projects' },
+          { label: 'Skills', href: '#skills' },
+          { label: 'Awards', href: '#awards' },
+        ].map((item) => (
+          <a key={item.label} href={item.href} className="hover:text-blue-400 transition-colors">
+            {item.label}
           </a>
         ))}
       </div>

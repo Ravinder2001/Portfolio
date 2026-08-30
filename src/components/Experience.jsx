@@ -25,7 +25,7 @@ const Experience = () => {
                 <div className="hidden md:block absolute left-1/2 -translate-x-1/2 top-4 w-4 h-4 rounded-full bg-blue-500 border-4 border-background z-10"></div>
                 
                 {/* Content Card */}
-                <div className={`w-full md:w-[45%] ${expIdx % 2 === 0 ? 'md:pr-12' : 'md:pl-12'}`}>
+                <div className={`w-full md:w-[50%] ${expIdx % 2 === 0 ? 'md:pr-12' : 'md:pl-12'}`}>
                   <motion.div 
                     whileInView={{ opacity: 1, x: 0 }}
                     initial={{ opacity: 0, x: expIdx % 2 === 0 ? -50 : 50 }}
